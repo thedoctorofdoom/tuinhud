@@ -1,0 +1,6 @@
+GameInfo
+{
+    StatusBarClass = "TuinStatusBar"
+    AddEventHandlers = "TuinNoticeHandler", "TuinNoticeRenderer", "TuinExitRelay"
+    StatScreen_Single = "TuinStatusScreen"
+}

@@ -1,0 +1,7 @@
+user int tuin_hud_style = 1;
+user int tuin_hud_face = 1;
+user int tuin_hud_scale = 100;
+user int tuin_hud_layout = 0;
+user bool tuin_notices = true;
+user bool tuin_notice_combat = true;
+user noarchive bool tuin_debug_preview = false;

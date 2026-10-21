@@ -1,0 +1,41 @@
+AddOptionMenu "OptionsMenu"
+{
+	Submenu "Tuin HUD Options", "TuinHUDOptions"
+}
+
+OptionValue "TuinHUD_Style"
+{
+	0, "Classic"
+	1, "Modern compact"
+	2, "Modern tactical"
+}
+
+OptionValue "TuinHUD_Face"
+{
+	0, "Hidden"
+	1, "Left"
+	2, "Center"
+}
+
+OptionValue "TuinHUD_Layout"
+{
+	0, "Bottom corners"
+	1, "Bottom centered"
+	2, "Top corners"
+}
+
+OptionMenu "TuinHUDOptions"
+{
+	Title "Tuin HUD Options"
+	StaticText "Tuin HUD display and notice settings.", 1
+	StaticText ""
+	Option "HUD style", "tuin_hud_style", "TuinHUD_Style"
+	Option "Status face", "tuin_hud_face", "TuinHUD_Face"
+	Option "HUD layout", "tuin_hud_layout", "TuinHUD_Layout"
+	Slider "HUD scale", "tuin_hud_scale", 50, 100, 5, 0
+	StaticText ""
+	StaticText "Event notices", 1
+	Option "Animated notices", "tuin_notices", "OnOff"
+	Option "Combat achievements", "tuin_notice_combat", "OnOff"
+	Option "Debug notice preview", "tuin_debug_preview", "OnOff"
+}

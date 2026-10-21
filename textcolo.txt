@@ -1,0 +1,39 @@
+TuinRed
+{
+	#000000 #FF7666
+}
+
+TuinViolet
+{
+	#000000 #B7A0FF
+}
+
+TuinBlue
+{
+	#000000 #819CFF
+}
+
+TuinGold
+{
+	#000000 #FFDB64
+}
+
+TuinGreen
+{
+	#000000 #83EDB0
+}
+
+TuinCyan
+{
+	#000000 #81DDFF
+}
+
+TuinOrange
+{
+	#000000 #FFB078
+}
+
+TuinSubtitle
+{
+	#000000 #DCE4EE
+}
