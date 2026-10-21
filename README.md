@@ -2,8 +2,6 @@
 
 A ZScript-only add-on for **UZDoom 5.x** that recreates the modern HUD and animated event notices from [Tuin Doom Enhanced](https://github.com/tuin-boop/Tuin-Doom-Enhanced), a custom Doom engine based on Duct-Tape DOOM.
 
-The add-on is packaged as `tuin-hud.pk3` (built with `build.ps1`, output in `dist/`), or you can load this folder directly in UZDoom.
-
 ## Requirements
 
 - UZDoom **5.0 or newer** (scripts declare ZScript version 4.14)
@@ -11,7 +9,7 @@ The add-on is packaged as `tuin-hud.pk3` (built with `build.ps1`, output in `dis
 
 ## Installation and load order
 
-Load Tuin HUD **last** in your `-file` list. It sets the status bar class, so it replaces any status bar defined by a gameplay mod (for example Project Brutality’s HUD). When multiple mods touch MAPINFO, the last loaded mod wins.
+Load Tuin HUD **last** in your `-file` list. It sets the status bar class, so it replaces any status bar defined by a gameplay mod. When multiple mods touch MAPINFO, the last loaded mod wins.
 
 ```text
 uzdoom -iwad DOOM2.WAD -file <your gameplay mods> tuin-hud.pk3
